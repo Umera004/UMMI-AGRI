@@ -1,0 +1,19 @@
+{
+  "name": "ummi-agri",
+  "version": "1.0.0",
+  "description": "UMMI AGRI - Advanced Smart Farming Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
